@@ -539,7 +539,10 @@
 }
 
 @media(max-width:768px){
-   #menu-icon{
+   .container {
+        grid-template-columns: 1fr;
+    }
+    #menu-icon{
       display: block;
    }
    .navbar{
