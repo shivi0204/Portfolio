@@ -369,7 +369,12 @@
 
 
  .container {
-   display: flex;
+   max-width: 1140px; /* Adjust as needed */
+   margin: 0 auto;
+   padding: 20px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
    
  }
  
